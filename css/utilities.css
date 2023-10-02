@@ -95,4 +95,7 @@
 
 /*** BACKGROUND COLORS ***/
 .bg-orange { background-color: #FF6900; }
-.bg-black { background-color: black; }
+.bg-grey { background-color: rgb(68, 68, 68); }
+
+/* DASHED BORDER */
+.border-dash {border: dashed black;}
