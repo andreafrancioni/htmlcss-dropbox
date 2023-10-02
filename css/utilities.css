@@ -96,6 +96,7 @@
 /*** BACKGROUND COLORS ***/
 .bg-orange { background-color: #FF6900; }
 .bg-grey { background-color: rgb(68, 68, 68); }
+.bg-lightblue {background-color: #B4D0E7;}
 
 /* DASHED BORDER */
 .border-dash {border: dashed black;}
