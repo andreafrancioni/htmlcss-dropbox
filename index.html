@@ -6,30 +6,73 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header class="border-dash">
-        <div class="header-left"></div>
-        <div class="header-right"></div>
+    <header class="d-flex flex-justify-between w-100">
+        <div class="header-left d-flex">
+            <a href="#"><img class="mx-32" src="./img/logo-small.png" alt="drop-logo"></a>
+            <p class=""><a href="#">Perche' Dropbox</a></p>
+            <p class="ml-32"><a href="#">Funzioni</a></p>
+            <p class="ml-32"><a href="#">Piani e Prezzi</a></p>
+        </div>
+        <div class="header-right w-30 d-flex">
+            <p class="ml-32"><a href="#">Supporto</p></a>
+            <p class="ml-32"><a href="#">Contatta l'ufficio vendite</p></a>
+            <p class="ml-32"><a href="#">Accedi</p></a>
+            <button class="mx-32">Inizia</button>
+
+        </div>
     </header>
 
     <main>
-        <div class="jumbo w-80 d-flex">
-            <div class="left-jumbo w-30 bg-orange border-dash"></div>
-            <div class="right-jumbo w-70 bg-grey border-dash"></div>
-        </div>
-        <!-- Inizio container w-70 -->
-        <div class="container w-70">
-            <section class="payment-plan d-flex flex-justify-between bg-orange ">
-                <div class="plan-type border-dash"></div>
-                <div class="plan-type border-dash"></div>
-                <div class="plan-type border-dash"></div>
-            </section>
-            <section class="enterprise-contact border-dash "></section>
-            <section class="find-partner d-flex">
-                <div class="left w-70 bg-grey border-dash"></div>
-                <div class="right w-30 bg-orange border-dash"></div>
-            </section>
+        <section id="jumbotron" class="bg-lightblue">
+            <div class="containerBig w-80">
+                    <h1 class="">Tutto cio' che ti serve per il lavoro, in un unico posto</h1>
+                <div class="jumbo d-flex mt-64">
+                    <div class="left-jumbo w-30">
+                        <p class="">Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+						<button class="mt-32"><a href="#" class="">Inizia la tua prova gratuita</a></button>
+						<p class="mt-32">Annulla in qualsiasi momento</p>
+						<i id="freccia" class="fa fa-arrow-down fa-3x mt-64"></i>
+                    </div>
+                    <div class="right-jumbo w-70">
+                        <img src="./img/jumbo.png" alt="Dropbox-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Inizio containerSmall w-70 -->
+        <div class="containerSmall w-70">
+        <section id="business-plan">
+            <h2 class="mb-32">Trova il piano business che fa per te</h2>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">Fatturazione mensile</label>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Fatturazione annuale</label>
+                <section class="payment-plan d-flex flex-justify-between my-32">
+                    <div class="plan-type border-external">
+                        <div class="top-card">
+                            
+                        </div>
+                        <div class="bottom-card"></div>
+                    </div>
+                    <div class="plan-type border-external">
+
+                    </div>
+                    <div class="plan-type border-external">
+
+                    </div>
+                </section>
+                <section class="enterprise-contact border-dash "></section>
+                <section class="find-partner d-flex">
+                    <div class="left w-70 bg-grey border-dash"></div>
+                    <div class="right w-30 bg-orange border-dash"></div>
+                </section>
+        </section>
             <section class="drop-operation d-flex">
                 <div class="operation border-dash"></div>
                 <div class="operation border-dash"></div>
@@ -62,9 +105,9 @@
         </section>
         
         <div class="bg-lightblue w-100">
-            <section class="drop-business container border-dash"></section>
+            <section class="drop-business containerSmall border-dash"></section>
         </div>
-        <section class="questions container border-dash"></section>
+        <section class="questions containerSmall border-dash"></section>
 
 </main>
 

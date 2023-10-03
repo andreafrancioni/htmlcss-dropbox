@@ -1,33 +1,107 @@
-/* CSS Reset */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body{
-    background-color: white
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    border-style: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button > a{
+    text-decoration: none;
+    color: white
+}
+
+.containerBig {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.containerSmall {
+	max-width: 1100px;
+	margin: 0 auto;
 }
 
 /* Header */
 header{
     min-height: 70px;
-    background-color: blue;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    z-index: 999;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header img{
+    height: 35%;
+}
+
+.header-left{
+    align-items: center;
+}
+
+.header-right{
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /* Main */
 main{
+    margin-top: 70px;
+}
+
+/* JUMBOTRON */
+#jumbotron{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+
+#jumbotron h1{
+    font-size: 70px;
+    font-weight: 800;
 }
 
 .jumbo{
     margin: 0 auto;
-    background-color: lightblue;
-    min-height: 500px;
+    
 }
 
-.container{
-    margin: 0 auto;
-    width: 70%;
+
+.right-jumbo{
+    position: relative;
+}
+.right-jumbo img{
+    width: 100%;
+    position: absolute;
+}
+/* FINE JUMBOTRON */
+
+/* BUSINESS PLAN */
+#business-plan{
+
+}
+
+#business-plan h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#business #radio{
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
 }
 
 .payment-plan{
@@ -36,8 +110,7 @@ main{
 }
  
 .plan-type{
-    background-color: rebeccapurple;
-    width: calc(100% /3);
+    width: calc(90% /3);
 }
 
 .enterprise-contact{
@@ -50,7 +123,9 @@ main{
     min-height: 300px;
     background-color: aqua;
 }
+/* FINE BUSINESS PLAN */
 
+/* OPERATION DROPBOX BUSINESS */
 .drop-operation{
     min-height: 500px;
     flex-wrap: wrap;
@@ -64,6 +139,8 @@ main{
 .find-more{
     min-height: 300px;
 }
+/* FINE OPERATION DROPBOX BUSINESS*/
+
 
 .customer{
     margin: 0 auto;

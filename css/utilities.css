@@ -1,3 +1,10 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*** FLEX ***/
 .d-flex {	display: flex;	}
 .d-inline { display: inline; }
@@ -100,3 +107,4 @@
 
 /* DASHED BORDER */
 .border-dash {border: dashed black;}
+.border-external{ border: solid 2px gray;}
