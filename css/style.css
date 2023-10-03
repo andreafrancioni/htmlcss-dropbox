@@ -27,6 +27,9 @@ button > a{
 	margin: 0 auto;
 }
 
+ul > li{
+    list-style-type: none;
+}
 /* Header */
 header{
     min-height: 70px;
@@ -105,12 +108,20 @@ main{
 }
 
 .payment-plan{
-    min-height: 500px;
     margin: 0 auto;
 }
  
 .plan-type{
     width: calc(90% /3);
+}
+
+.plan-type .top-card{
+    text-align: center;
+    border-bottom: solid gray 2px;
+}
+
+.plan-type .bottom-card ul > li{
+    padding-top: 16px;
 }
 
 .enterprise-contact{
