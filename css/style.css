@@ -115,25 +115,27 @@ main{
     width: calc(90% /3);
 }
 
-.plan-type .top-card{
+.top-card{
     text-align: center;
     border-bottom: solid gray 2px;
 }
 
-.plan-type .bottom-card ul > li{
+.bottom-card ul > li{
     padding-top: 16px;
 }
 
-.enterprise-contact{
-    min-height: 300px;
-    background-color: lightgreen;
 
+/* PARTNER SECTION DROPBOX */
+.find-partner img{
+    width: 100%;
 }
 
-.find-partner{
-    min-height: 300px;
-    background-color: aqua;
+.find-partner button{
+    background-color: white;
+    color: black;
+    border: solid 1px black;
 }
+
 /* FINE BUSINESS PLAN */
 
 /* OPERATION DROPBOX BUSINESS */
@@ -142,13 +144,22 @@ main{
     flex-wrap: wrap;
 }
 
+.drop-operation img{
+    width: 100%;
+}
+
 .operation{
-    background-color: cadetblue;
     width: calc(100% / 3);
+    padding-right: 32px;
+    padding-bottom: 32px;
 }
 
 .find-more{
-    min-height: 300px;
+    margin: 150px 0;
+}
+
+.find-more h1{
+    font-size: 30px;
 }
 /* FINE OPERATION DROPBOX BUSINESS*/
 

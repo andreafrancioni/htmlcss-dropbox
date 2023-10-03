@@ -100,6 +100,13 @@
 .my-64 { margin: 64px 0; }
 .mx-64 { margin: 0 64px; }
 
+.m-128 { margin: 128px; }
+.mt-128 { margin-top: 128px; }
+.mr-128 { margin-right: 128px; }
+.mb-128 { margin-bottom: 128px; }
+.ml-128 { margin-left: 128px; }
+.my-128 { margin: 128px 0; }
+.mx-128 { margin: 0 128px; }
 /*** BACKGROUND COLORS ***/
 .bg-orange { background-color: #FF6900; }
 .bg-grey { background-color: rgb(68, 68, 68); }
@@ -107,4 +114,4 @@
 
 /* DASHED BORDER */
 .border-dash {border: dashed black;}
-.border-external{ border: solid 2px gray;}
+.border-external{ border: solid 1px gray;}
