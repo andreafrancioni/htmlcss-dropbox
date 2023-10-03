@@ -109,8 +109,19 @@
 .mx-128 { margin: 0 128px; }
 /*** BACKGROUND COLORS ***/
 .bg-orange { background-color: #FF6900; }
-.bg-grey { background-color: rgb(68, 68, 68); }
 .bg-lightblue {background-color: #B4D0E7;}
+
+.bg-green{ background-color:#a2d39b;}
+.bg-bordergreen{ background-color:#d2e9cd ;}
+.bg-bordeaux{ background-color:#60092b ;}
+.bg-skyblue{ background-color:#0093ce ;}
+.bg-red{ background-color:#ff1b1c;}
+.bg-darkred{ background-color:#d50120;}
+.bg-grey{ background-color:#f5f5f5 ;}
+.bg-blue{ background-color:#0d2481 ;}
+.bg-lightskyblue{ background-color:#b4d0e7 ;}
+.bg-yellow{ background-color:#ffd830 ;}
+
 
 /* DASHED BORDER */
 .border-dash {border: dashed black;}
