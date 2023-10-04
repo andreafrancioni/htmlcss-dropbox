@@ -121,7 +121,7 @@
 .bg-blue{ background-color:#0d2481 ;}
 .bg-lightskyblue{ background-color:#b4d0e7 ;}
 .bg-yellow{ background-color:#ffd830 ;}
-
+.bg-black{ background-color:black ;}
 
 /* DASHED BORDER */
 .border-dash {border: dashed black;}
