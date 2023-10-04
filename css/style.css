@@ -185,7 +185,13 @@ main{
 }
 .middle-customer{
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+}
+
+.middle-customer hr{
+    margin-left: 10%;
+    margin-right: 70%;
+    margin-bottom: 16px;
 }
 .right-customer{
     width: 100%;
