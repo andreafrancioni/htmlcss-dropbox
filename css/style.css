@@ -244,6 +244,15 @@ margin: 100px;
     padding: 32px 0;
 }
 
+.question:hover + .answer{
+    display: block;
+}
+
+.answer{
+    display: none;
+    padding-bottom: 16px;
+}
+
 footer{
     min-height: 300px;
 }
